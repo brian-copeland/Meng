@@ -1,0 +1,42 @@
+1. Make app that ultrasonically pings every second.
+	-figure out what type of sound is best
+	-ivestigate to what extent it can be heard
+	-determine what devices to use
+
+2. Add in listening for pings from other devices
+	-Make respond on hearing a ping to get RTT
+	-calculate RTT
+
+3. Create connection between devices
+	-test to see if bluetooth, LAN, client server
+	-implement on devices
+
+4. Create model on each device of distance to other devices.
+	-establish way of linking bluetooth with ultrasonic signals
+	-calculate TOF between devices
+	-get distance from TOF
+
+5. Use sensors to get dead reckoning for each device as its moving.
+	-determine update frequency
+	-determine accuracy of dead reckoning
+
+6. Figure out data transmission protocol to send dead reckoning to other devices
+	-representation of data
+	-frequency of transmission
+
+7. Integrate other devices dead reckoning into current world model.
+	-compare change of positions between two devices and change of distance
+
+8. (Optional) Increase accuracy of current world model
+	-Kalman filter?
+	-Bayes updates?
+	-change frequency of pinging/messaging?
+
+9. Determine location to show on phone screen.
+	-figure out which way phone is facing
+	-figure out camera angle shown
+	-Do something with vertical?
+
+10. Overlay something on camera interface in location of other device.
+	-figure out how to get camera interface
+	-make overlay GUI on top of it.
